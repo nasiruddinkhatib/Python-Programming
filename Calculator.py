@@ -28,22 +28,33 @@ print("Please Select an Operation:\n"
 
 # Take user input
 select = int(input("Select the Operation from 1, 2, 3, 4, 5: "))
-number1 = int(input("Enter the First Number: "))
-number2 = int(input("Enter the Second Number: "))
+num1 = int(input("Enter the First Num: "))
+num2 = int(input("Enter the Second Num: "))
 
 # Step 3: Print the Result
 if select == 1:
-    print(number1, "+", number2, "=", add(number1, number2))
+    print(num1, "+", num2, "=", add(num1, num2))
 elif select == 2:
-    print(number1, "-", number2, "=", subtract(number1, number2))
+    print(num1, "-", num2, "=", subtract(num1, num2))
 elif select == 3:
-    print(number1, "*", number2, "=", multiply(number1, number2))
+    print(num1, "*", num2, "=", multiply(num1, num2))
 elif select == 4:
-    print(number1, "/", number2, "=", divide(number1, number2))
+    print(num1, "/", num2, "=", divide(num1, num2))
 elif select == 5:
-    print("Average of", number1, "and", number2, "=", avg(number1, number2))
+    print("Average of", num1, "and", num2, "=", avg(num1, num2))
 else:
     print("Invalid Operation. Please select again.") # Print an error message if 1,2,3,4,5 is not selected
 
 
+#OutPut For Code will Like This :
+Please Select an Operation:
+1. Addition
+2. Subtract
+3. Multiply
+4. Division
+5. Average
 
+Select the Operation from 1, 2, 3, 4, 5: 1
+Enter the First Num: 10
+Enter the Second Num: 20
+10 + 20 = 30
