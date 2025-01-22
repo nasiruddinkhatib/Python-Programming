@@ -32,5 +32,22 @@ numbers = [10,0,-1,7,10,85]
 # print(numbers)
 # numbers.pop()    # Pop Will remove the number of the end
 # print(numbers)
-# numbers.clear()    # clear All The list
+# numbers.clear()   # clear All The list
 # print(numbers)
+#*******List Concatenation*******
+l1 =["Nasir","Maths","Science",True,1,2]    #list 1
+l2 =[1,2,3]                                 #list 2
+print(l1+l2)                                 #adding l1 to t2 Concatenation
+print(l2*2)   #To repeat the elements of the list * is use so the element will get two time Output:[1, 2, 3, 1, 2, 3]
+
+#*******LOOPS in list*******
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:                    # FOR LOOP
+    print(fruit)
+
+fruits = ["apple", "banana", "cherry"]
+i = 0                                    # WHILE LOOP
+while i < len(fruits):
+    print(fruits[i])
+    i += 1
+
