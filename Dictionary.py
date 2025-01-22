@@ -35,3 +35,13 @@ print(d1)
 
 # for key, value in d1.items(): #  Loop Through Key-Value Pairs Use items() to iterate over both keys and values:
 #     print(f"{key}: {value}")
+
+#*******Update Method********
+dictionary = {"name": "Nasir"}        # Creating the First dictionary
+dic2 = {"age": 25, "city": "Mumbai"}  # Creating the second dictionary
+dictionary.update(dic2)               # Using the update() method to merge dic2 into dictionary
+print("Updated Dictionary:", dictionary) #Printing the updated dictionary
+
+#Output: Updated Dictionary: {'name': 'Nasir', 'age': 25, 'city': 'Mumbai'}
+
+
