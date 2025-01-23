@@ -4,13 +4,13 @@
 # The for loop iterates over a sequence (e.g., list, tuple, string, range) and
 # executes a block of code for each element.
 #Example 1  Iterating through list
-# fruits = ['apple', 'banana', 'cherry']
-# for fruit in fruits:
-#   print(fruit)
+fruits = ['apple', 'banana', 'cherry']
+for fruit in fruits:
+  print(fruit)
 
 #1]write a program to print 1 to 10 using  loop
-# for i in range(1,11):    #range function is used to print the numbers and 1 is included and 11 is not included so it will print 1 to 10
-#   print(i,end=" ")        #end=" " is used to print the numbers in a single line
+for i in range(1,11):    #range function is used to print the numbers and 1 is included and 11 is not included so it will print 1 to 10
+  print(i,end=" ")        #end=" " is used to print the numbers in a single line
 
 #2]write a program to print the squares of the number from 1 to 5
 # for i in range(1,6):
@@ -93,4 +93,30 @@
 # for char in word:             # we are using char variable to store the each character of the word
 #     count = word.count(char)  # count function is used to count the characters
 #     print(f"The number of {char} in the word {word} is {count}")
+
+#**********Loops Using List**********
+# l1 = ["Nasir","Amin","Samad","Habib"]
+# l2 = ["College", "School","Tuition","University"]
+# for i in l1:
+#     for j in l2:
+#         print(i,j)
+
+#Output:
+# Nasir College
+# Nasir School
+# Nasir Tuition
+# Nasir University
+# Amin College
+# Amin School
+# Amin Tuition
+# Amin University
+# Samad College
+# Samad School
+# Samad Tuition
+# Samad University
+# Habib College
+# Habib School
+# Habib Tuition
+# Habib University
+
 
