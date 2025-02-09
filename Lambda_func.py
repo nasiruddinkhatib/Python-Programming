@@ -3,16 +3,15 @@
 # As we already know the def keyword is used to define a normal function in Python.
 # Similarly, the lambda keyword is used to define an anonymous function in Python.
 #1] Program
-# s1 = 'GeeksforGeeks'
-# s2 = lambda func: func.upper()
-# print(s2(s1))
+s1 = 'GeeksforGeeks'
+s2 = lambda func: func.upper()
+print(s2(s1))
 
-# 2] Program
-# Using lambda
-# sq = lambda x: x ** 2
-# print(sq(3))
-#
-# # Using def
+# 2] Program Using lambda
+sq = lambda x: x ** 2
+print(sq(3))
+
+# Using function
 # def sqdef(x):
 #     return x ** 2
 # print(sqdef(3)
@@ -24,8 +23,7 @@
 #     print(i())
 #Output:10 20 30 40
 
-# 4] Program
-# Even Odd Checking using Lamda
+# 4] Program Even Odd Checking using Lamda
 # a=int(input("Enter the Number:"))
 # check = lambda x:"Even " if x%2==0 else "Odd "
 # print(check(a))
