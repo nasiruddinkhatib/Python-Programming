@@ -7,8 +7,8 @@
 # all with different qualities and usage.
 # Realtime Uses of tuple  Will Like Storing geographical co-ordinates
 
-#t1 = ("nasir",1,True,1.1,100,"Boss")   # tuple 1
-#t2 =(2,3,4,50,90,4)                    # tuple 2
+t1 = ("nasir",1,True,1.1,100,"Boss")   # tuple 1
+#t2 =(2,3,4,50,90,4)                   # tuple 2
 #print(type(t1))       # To check type
 # print(t1[0])         # It will Print index 0  Output: nasir
 # print(t1[1:3])
