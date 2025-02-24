@@ -3,3 +3,6 @@
 a = "Nasiruddin"  # The original string where replacements will be made
 b = a.replace("d", "$")  # The replace() method is used to replace 'd' with '$' in the string
 print(b)  # Output the string after the replacement
+#Output:
+#Nasiru$$in
+#**********************************************************************************************
