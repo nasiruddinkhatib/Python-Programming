@@ -1,17 +1,15 @@
-# Create a program that asks the user to enter their name and their age. Print out a message addressed to them that tells them the year that they will turn 100 years old.
-import datetime
+## Create a program that asks the user to enter their name and their age. Print out a message addressed to them that
+#tells them the year that they will turn 100 years old.
+#Code:
+import datetime        Its a Package that we import 
+name = input("Enter your name: ")    # Ask the user for their name By Taking User Input
+age = int(input("Enter your age: ")) # # Ask the user for their age
+current_year = datetime.datetime.now().year  # Get the current year
 
-# Ask the user for their name
-name = input("Enter your name: ")
-
-# Ask the user for their age
-age = int(input("Enter your age: "))
-
-# Get the current year
-current_year = datetime.datetime.now().year
-
-# Calculate the year the user will turn 100
-year_turn_100 = current_year + (100 - age)
-
+year_turn_100 = current_year + (100 - age)   # Calculate the year the user will turn 100 
 # Print a message to the user
 print(f"{name}, you will turn 100 years old in the year {year_turn_100}.")
+#Output : 
+#Enter your name: Nasiruddin  
+#Enter your age: 24  
+#Nasiruddin, you will turn 100 years old in the year 2100.
