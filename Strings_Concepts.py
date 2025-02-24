@@ -63,3 +63,19 @@ print(re.findall(r'\bS\w+', text)) # ['Spain']
 #Output :
 # Match found!
 # ['Spain']
+
+
+#******************************String Practice Questions*********************
+##1)Python Program to Replace all Occurrences of ‗d‘ with $ in a String
+# Define the input string
+a = "Nasiruddin"  # The original string where replacements will be made
+b = a.replace("d", "$")  # The replace() method is used to replace 'd' with '$' in the string
+print(b)
+# Output : Nasiru$$in
+
+##2))  replace blank space in a string.
+a="Nasir and Nasir"
+b=a.replace(" ","-")
+print(b)
+#Output :
+#Nasir-and-Nasir
