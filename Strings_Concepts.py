@@ -1,5 +1,12 @@
-### Basic String Operations
-# Creating strings
+##*********************Basic String Operations**************************
+
+# What is  String ?
+# Strings are one of the most common data types in Python and are used to represent text.
+# String is Immutable means (unchangeable) . It's Contains a collection of character.
+
+## Creating strings
+single_line='Hello' # For short, simple strings — usually when the string fits on one line.
+
 simple_string = "Hello, Python!"
 multiline_string = '''This is
 a multiline
