@@ -1,5 +1,6 @@
 # What is tuples ?
 # A tuple is a collection which is ordered and unchangeable.
+#Tuples are Immutable means (Unchangeable)
 # Tuples are written with round brackets().
 # Tuple items are indexed, the first item has index [0], the second item has index [1] etc
 # Tuple items are ordered, unchangeable, and allow duplicate values.
@@ -15,11 +16,17 @@ t1 = ("nasir",1,True,1.1,100,"Boss")   # tuple 1
 #print(t1+t2)
 # print(max(t2))        # It will print Max Number
 # print(min(t2))        # Minimum Number
+#************How to Check Tuple Type**************
+# n=("nas")
+# print(type(n))  # It will Give Output as String not Tuple Beacause for tuple Comma should come if value is single value 
+# #Output :  <class 'str'>
+a=("nasir",) # We Added Comma(,) to make it tuple because if we dont give comma to this single value it will consider as string 
+print(type(a))
+#output : <class 'tuple'>
 
 # *****Tuple  Deletion****
 # t3 = ("nasir",1,2)
 # del t3               # It will Delete tuple Del Keyword is used here simple.
-
 
 
 # **********Tuple Deletion*********
