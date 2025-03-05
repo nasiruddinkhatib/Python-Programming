@@ -44,4 +44,8 @@ print("Updated Dictionary:", dictionary) #Printing the updated dictionary
 
 #Output: Updated Dictionary: {'name': 'Nasir', 'age': 25, 'city': 'Mumbai'}
 
+dic={1:"Nasir" ,2:"James",3:"Armaan"}   # Dic containing key and value
+dic[2]="amit"                           # We Updated key 2 james as Amit 
+print(dic)
 
+#Output : {1: 'Nasir', 2: 'amit', 3: 'Armaan'}
