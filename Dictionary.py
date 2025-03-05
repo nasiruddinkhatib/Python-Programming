@@ -14,7 +14,7 @@ print(d1.keys())   # Keys of d1
 print(d1.values()) # Values of d1
 print(d1["Apple"])  # Access a Specific Value Retrieve the value for a specific key:
 
-d1["mango"]=100     # Add a New Key-Value Pair Add an item to the dictionary:
+d1["mango"]=100     # Add a New Key-Value Pair Add an item to the dictionary existing dictionary 
 print(d1)
 
 d1["apple"]=120  # Update the Value of a Key Update an existing item:
