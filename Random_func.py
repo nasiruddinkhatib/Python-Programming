@@ -8,13 +8,13 @@
 #     print(" Its a Tail")
 
 # Same Program different method
-# import random
-# n = int(input("enter the possibly"))
-# side=random.randint(0,1)
-# if side==0 or side==0:
-#     print("head")
-# elif side==1 or side==1:
-#     print("Tail")
+import random
+n = int(input("enter the possibly"))
+side=random.randint(0,1)       #random.randint(0,1) method is use to print possibilities head 0 & tail 1
+if side==0 or side==0:
+    print("head")
+elif side==1 or side==1:
+    print("Tail")
 
 # Write a program select a random name from a list of names and the person selected will have to pay everybody's bill
 # Importing the random module to use random functions
