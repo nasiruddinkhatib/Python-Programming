@@ -1,8 +1,9 @@
 # What is  Loops ?
 # In Python, loops are used to execute a block of code repeatedly. Loops are essential for automating repetitive tasks, iterating through data structures, and much more.
-# Python provides two main types of loops: for loops and while loops. 1. For Loop
-# The for loop iterates over a sequence (e.g., list, tuple, string, range) and
-# executes a block of code for each element.
+# Python provides two main types of loops: for loops and while loops. 
+#1.For Loop
+# The for loop iterates over a sequence (e.g., list, tuple, string, range) and executes a block of code for each element.
+
 #Example 1  Iterating through list
 fruits = ['apple', 'banana', 'cherry']
 for fruit in fruits:
