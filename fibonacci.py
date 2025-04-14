@@ -32,3 +32,23 @@ else:
         a=b
         b=c
         print(c)
+
+#****************-------------**************----------*****************
+# Fibonacci series using Recursion 
+def fibbon(n):
+    if n==0:
+         return 0
+    elif n==1:
+          return 1
+    else:
+          return fibbon(n-1)+fibbon(n-2)
+num=int(input("Enter The Number :"))       
+for i in range(0,num):
+    print(fibbon(i),end=' ')
+
+# Output :
+# Enter The Number :
+# 6
+# 0 1 1 2 3 5 
+        
+            
