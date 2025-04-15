@@ -34,7 +34,21 @@ else:
         print(c)
 
 #****************-------------**************----------*****************
-# Fibonacci series using Recursion 
+# Fibonacci series using recursion 
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + fibonacci(n - 2)
+
+# Example usage
+for i in range(5):
+    print(fibonacci(i), end=" ")
+#Output:
+#0 1 1 2 3 
+
+
+
+# Fibonacci series using Recursion by taking user input 
 def fibbon(n):
     if n==0:
          return 0
