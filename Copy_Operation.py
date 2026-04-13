@@ -1,16 +1,21 @@
-# **************************************** Copy Operation *****************************
+# ************************************ Copy Operation *****************************
 # Three Types of Copy Operations:
 # 1. General Copy
 # 2. Shallow Copy
 # 3. Deep Copy
 
-# ********************** General Copy **************************
-l = [1, 2, 3, 4]  # Original list
+# ********************* General Copy ************************
+l = [1, 2, 3, 4]   # Original list
 k = l              # General copy: both variables point to the same list
 
-print(l)          # Output: [1, 2, 3, 4]
-print(id(l))      # Memory address of l
-print(id(k))      # Memory address of k (same as l)
+print(l)           # Output: [1, 2, 3, 4]
+print(id(l))       # Memory address of l
+print(id(k))       # Memory address of k (same as l)
+
+Output : 
+[1, 2, 3, 4]
+140735215678912
+140735215678912
 
 # Disadvantage of General Copy:
 # Any change made to one list will reflect in the other since they share the same memory location.
