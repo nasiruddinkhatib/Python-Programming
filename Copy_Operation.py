@@ -12,10 +12,10 @@ print(l)           # Output: [1, 2, 3, 4]
 print(id(l))       # Memory address of l
 print(id(k))       # Memory address of k (same as l)
 
-Output : 
-[1, 2, 3, 4]
-140735215678912
-140735215678912
+# Output : 
+# [1, 2, 3, 4]
+# 140735215678912
+# 140735215678912
 
 # Disadvantage of General Copy:
 # Any change made to one list will reflect in the other since they share the same memory location.
